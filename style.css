@@ -54,7 +54,6 @@ margin-bottom: 30px;
 .sectio-one{
 width: 1040px;
 height: 1395px;
-border: 2px solid red;
 margin: 0 auto;
 padding: 80px 97px 80px 97px;
 margin-top: 100px;
@@ -165,4 +164,64 @@ font-weight: 400;
 text-align: left;
 margin-right: 70px;
 padding-bottom: 20px;
+}
+
+/* Section two */
+
+.section-two{
+width: 1240px;
+height: 775px;
+border: 2px solid red;
+margin: 0 auto;
+margin-bottom: 100px;
+}
+
+.two-div-one{
+  margin: 0 100px;
+}
+.two-div-one h3{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.two-div-one p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.two-div-two{
+width: 1240px;
+height: 614px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 32px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
+
+/* Section three */
+
+.section-three h3{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.section-three p{
+color: rgb(13, 19, 33);
+font-weight: 400;
+text-align: center;
+}
+.three-div-one{
+width: 946px;
+height: 113px;
+margin: 0 auto;
+}
+.skill{
+  display: flex;
 }
