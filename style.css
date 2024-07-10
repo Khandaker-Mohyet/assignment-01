@@ -171,7 +171,6 @@ padding-bottom: 20px;
 .section-two{
 width: 1240px;
 height: 775px;
-border: 2px solid red;
 margin: 0 auto;
 margin-bottom: 100px;
 }
@@ -222,6 +221,49 @@ width: 946px;
 height: 113px;
 margin: 0 auto;
 }
+
+.three-div-two{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
+padding: 20px;
+}
+
 .skill{
+  width: 314px;
+  height: 299px;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+}
+.skill-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+}
+
+.skill-description {
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+.skill-learn{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+text-decoration-line: underline;
+}
+
+/* Footer */
+
+.footer{
+  background-image: url(assets/handshake.jpg);
 }
